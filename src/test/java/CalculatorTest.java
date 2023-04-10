@@ -27,5 +27,3 @@ public class CalculatorTest {
     }
 
 }
-
-//int a 10 int b 5

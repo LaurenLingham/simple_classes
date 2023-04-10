@@ -1,21 +1,25 @@
 public class WaterBottle {
 
-    private int volume = 100;
+    private int volume;
 
-    public WaterBottle(int volume) {
-        this.volume = volume;
+    public WaterBottle() {
+        this.volume = 100;
     }
 
-    public static int drink() {
-        return this.volume -= 10;
+    public int getVolume() {
+        return this.volume;
     }
 
-    public static int empty() {
-        return 0;
+    public void drink() {
+        this.volume -= 10;
     }
 
-    public static int fill() {
-        return this.volume = 100;
+    public void empty() {
+        this.volume = 0;
+    }
+
+    public void fill() {
+        this.volume = 100;
     }
 }
 
